@@ -1,0 +1,37 @@
+numHidden 	3
+numGenes 	30
+minGene 	-6.0
+maxGene 	6.0
+popSize 	100
+maxEvaluations 	20000
+mutateRate 	0.1
+mutateChange 	0.5
+seed 	1745259409280
+random 	java.util.Random@5f8ed237
+neuralNetworkClass 	class coursework.SimulatedAnnealing
+
+run,trainFitness,testFitness
+1,0.0185,0.0854
+2,0.0295,0.0910
+3,0.0364,0.1298
+4,0.0070,0.0490
+5,0.0203,0.0795
+6,0.0222,0.0896
+7,0.0094,0.0232
+8,0.0330,0.1473
+9,0.0075,0.0168
+10,0.0328,0.1544
+
+=== Descriptive statistics (Test) ===
+Mean       = 0.0866
+SD (n–1)   = 0.0478
+Q1  (25%)  = 0.0426
+Median(50%)= 0.0875
+Q3  (75%)  = 0.1342
+IQR        = 0.0916
+
+=== Jarque–Bera normality test (Test) ===
+Skewness = -0.0300
+Kurtosis = 1.5386
+JB-stat  = 0.8913
+(Compare JB to χ²(2)=5.99 for α=0.05)

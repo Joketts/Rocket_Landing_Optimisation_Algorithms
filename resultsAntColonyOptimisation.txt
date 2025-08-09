@@ -1,0 +1,37 @@
+numHidden 	3
+numGenes 	30
+minGene 	-6.0
+maxGene 	6.0
+popSize 	250
+maxEvaluations 	20000
+mutateRate 	0.08
+mutateChange 	0.25
+seed 	1745286383219
+random 	java.util.Random@57fa26b7
+neuralNetworkClass 	class coursework.AntColonyOptimization
+
+run,trainFitness,testFitness
+1,0.0945,0.2087
+2,0.0527,0.1328
+3,0.0202,0.0372
+4,0.0855,0.2303
+5,0.0797,0.1695
+6,0.1174,0.2500
+7,0.0687,0.0789
+8,0.0983,0.2066
+9,0.0692,0.2018
+10,0.0135,0.0421
+
+=== Descriptive statistics (Test) ===
+Mean       = 0.1558
+SD (n–1)   = 0.0785
+Q1  (25%)  = 0.0697
+Median(50%)= 0.1856
+Q3  (75%)  = 0.2141
+IQR        = 0.1444
+
+=== Jarque–Bera normality test (Test) ===
+Skewness = -0.4070
+Kurtosis = 1.3883
+JB-stat  = 1.3584
+(Compare JB to χ²(2)=5.99 for α=0.05)
